@@ -1,0 +1,121 @@
+<php>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سطحة جدة | النخبة لنقل السيارات</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .nav-link:hover::after { width: 100%; }
+        .nav-link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #3B82F6;
+            transition: width 0.3s;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-blue-900 text-white">
+    <!-- شريط التنقل -->
+    <nav class="fixed w-full bg-gray-800/90 backdrop-blur-sm z-50 shadow-xl">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="text-2xl font-bold text-blue-400">سطحة النخبة</a>
+                <div class="hidden md:flex space-x-8 space-x-reverse">
+                    <a href="/" class="nav-link hover:text-blue-400 transition">الرئيسية</a>
+                    <a href="services.html" class="nav-link hover:text-blue-400 transition">الخدمات</a>
+                    <a href="contant.html" class="nav-link hover:text-blue-400 transition">اتصل بنا</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- القسم البطولي -->
+    <section class="pt-32 pb-20 px-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-6 leading-tight">
+                خدمات سطحة <span class="text-blue-400">احترافية</span> في جدة
+            </h1>
+            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
+                خدمة سريعة على مدار الساعة لنقل السيارات، السحب الطارئ، وفتح الأبواق بأحدث المعدات
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+                <a href="tel:0536684063" class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-full text-lg flex items-center justify-center gap-2 transition-transform hover:scale-105">
+                    <i class="fas fa-phone"></i>
+                    اتصل الآن
+                </a>
+                <a href="https://wa.me/966536684063" class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-full text-lg flex items-center justify-center gap-2 transition-transform hover:scale-105">
+                    <i class="fab fa-whatsapp"></i>
+                    واتساب مباشر
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- المميزات -->
+    <section class="py-20 bg-gray-800/50">
+        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-12">
+            <div class="text-center p-8 bg-gray-700/30 rounded-xl hover:bg-gray-700/50 transition">
+                <div class="text-blue-400 text-4xl mb-4"><i class="fas fa-clock"></i></div>
+                <h3 class="text-2xl font-bold mb-4">استجابة فورية</h3>
+                <p class="text-gray-300">وصول خلال 30 دقيقة لأي مكان في جدة</p>
+            </div>
+            <div class="text-center p-8 bg-gray-700/30 rounded-xl hover:bg-gray-700/50 transition">
+                <div class="text-blue-400 text-4xl mb-4"><i class="fas fa-shield-alt"></i></div>
+                <h3 class="text-2xl font-bold mb-4">خدمة مضمونة</h3>
+                <p class="text-gray-300">ضمان الحفاظ على سيارتك من أي أضرار</p>
+            </div>
+            <div class="text-center p-8 bg-gray-700/30 rounded-xl hover:bg-gray-700/50 transition">
+                <div class="text-blue-400 text-4xl mb-4"><i class="fas fa-tools"></i></div>
+                <h3 class="text-2xl font-bold mb-4">معدات حديثة</h3>
+                <p class="text-gray-300">أحدث أنواع السطحات والمعدات المتخصصة</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer class="bg-gray-800 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="grid md:grid-cols-4 gap-8 text-gray-300">
+                <div>
+                    <h4 class="text-white font-bold mb-4">سطحة النخبة</h4>
+                    <p class="text-sm">القيادة بثقة مع خدمات الطوارئ الأسرع في جدة</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">روابط سريعة</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="hover:text-blue-400 transition">الخدمات</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400 transition">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">التواصل</h4>
+                    <ul class="space-y-2">
+                        <li><a href="tel:0536684063" class="hover:text-blue-400 transition">0536684063</a></li>
+                        <li>جدة، المملكة العربية السعودية</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">مواقعنا</h4>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-8 border-gray-700">
+            <p class="text-sm text-gray-500">© 2024 سطحة النخبة. جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <!-- زر الواتساب العائم -->
+    <a href="https://wa.me/966536684063" class="fixed bottom-8 left-8 bg-green-600 w-14 h-14 rounded-full flex items-center justify-center text-2xl hover:bg-green-700 transition-transform hover:scale-110 shadow-lg">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
+</php>

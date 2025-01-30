@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدماتنا | سطحة جدة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .service-card:hover .service-icon { transform: rotate(360deg); }
+        .service-icon { transition: transform 0.5s ease-in-out; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-blue-900 text-white">
+    <!-- شريط التنقل -->
+    <nav class="fixed w-full bg-gray-800/90 backdrop-blur-sm z-50 shadow-xl">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="text-2xl font-bold text-blue-400">سطحة النخبة</a>
+                <div class="hidden md:flex space-x-8 space-x-reverse">
+                    <a href="index.html" class="hover:text-blue-400 transition">الرئيسية</a>
+                    <a href="services.html" class="text-blue-400 border-b-2 border-blue-400">الخدمات</a>
+                    <a href="contant.html" class="hover:text-blue-400 transition">اتصل بنا</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- محتوى الخدمات -->
+    <main class="pt-32 pb-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16">خدماتنا <span class="text-blue-400">المتميزة</span></h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- خدمة نقل السيارات -->
+                <div class="service-card bg-gray-800 p-8 rounded-xl hover:bg-gray-700/50 transition group">
+                    <div class="service-icon text-blue-400 text-5xl mb-6"><i class="fas fa-truck-moving"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">نقل السيارات</h3>
+                    <p class="text-gray-300 mb-6">نقل آمن لجميع أنواع السيارات باستخدام أحدث السطحات</p>
+                    <ul class="text-gray-400 space-y-3 mb-6">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i>تغطية كافة المناطق</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i>تأمين كامل</li>
+                    </ul>
+                    <a href="contant.html" class="inline-flex items-center text-blue-400 hover:text-blue-300">
+                        اطلب الخدمة الآن <i class="fas fa-arrow-left mr-2 mt-1"></i>
+                    </a>
+                </div>
+
+                <!-- خدمة سحب السيارات -->
+                <div class="service-card bg-gray-800 p-8 rounded-xl hover:bg-gray-700/50 transition group">
+                    <div class="service-icon text-blue-400 text-5xl mb-6"><i class="fas fa-car-crash"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">سحب السيارات</h3>
+                    <p class="text-gray-300 mb-6">سحب السيارات المعطلة باحترافية مع الحفاظ على سلامة المركبة</p>
+                    <ul class="text-gray-400 space-y-3 mb-6">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i>معدات متخصصة</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i>فريق إسعاف طوارئ</li>
+                    </ul>
+                    <a href="contant.html" class="inline-flex items-center text-blue-400 hover:text-blue-300">
+                        اطلب الخدمة الآن <i class="fas fa-arrow-left mr-2 mt-1"></i>
+                    </a>
+                </div>
+
+                <!-- خدمة فتح الأبواق -->
+                <div class="service-card bg-gray-800 p-8 rounded-xl hover:bg-gray-700/50 transition group">
+                    <div class="service-icon text-blue-400 text-5xl mb-6"><i class="fas fa-unlock-alt"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">فتح الأبواق</h3>
+                    <p class="text-gray-300 mb-6">فتح أبواب السيارات المقفلة بدون أي أضرار</p>
+                    <ul class="text-gray-400 space-y-3 mb-6">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i>بدون تلاعب في الأقفال</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i>خدمة 24/7</li>
+                    </ul>
+                    <a href="contant.html" class="inline-flex items-center text-blue-400 hover:text-blue-300">
+                        اطلب الخدمة الآن <i class="fas fa-arrow-left mr-2 mt-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- قسم الاتصال -->
+            <div class="mt-20 text-center bg-gray-800 p-12 rounded-2xl">
+                <h3 class="text-3xl font-bold mb-8">تواصل معنا فورًا للحصول على المساعدة</h3>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <a href="tel:0536684063" class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-full flex items-center gap-2 transition hover:scale-105">
+                        <i class="fas fa-phone"></i>0536684063
+                    </a>
+                    <a href="https://wa.me/966536684063" class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-full flex items-center gap-2 transition hover:scale-105">
+                        <i class="fab fa-whatsapp"></i>واتساب مباشر
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- تذييل الصفحة -->
+    <footer class="bg-gray-800 py-12">
+        <!-- نفس التذييل الموجود في index.html -->
+    </footer>
+
+    <!-- زر الواتساب العائم -->
+    <a href="https://wa.me/966536684063" class="fixed bottom-8 left-8 bg-green-600 w-14 h-14 rounded-full flex items-center justify-center text-2xl hover:bg-green-700 transition-transform hover:scale-110 shadow-lg">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
